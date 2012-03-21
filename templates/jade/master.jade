@@ -1,0 +1,12 @@
+- var title = 'controller';
+!!! 5
+html
+  include includes/head
+  body
+    script(src='js/lib/socket.io.min.js')
+    script(src='js/hee.min.js')
+    script
+      socket.on('soundPlay', function () {
+        audio.currentTime = 0;
+        audio.play();
+      });
