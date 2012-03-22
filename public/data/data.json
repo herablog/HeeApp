@@ -1,0 +1,202 @@
+{
+	"data": [
+		{
+			"members" : ["根岸侑平"],
+			"urls" : ["http://negishiclub.heteml.jp/ac/"],
+			"title" : "新ペットゲーム",
+			"techs" : ["Canvas"],
+			"description" : "Canvasでペットの動きを自分で書きました。"
+		},
+		{
+			"members" : ["永井健太", "市川友大", "田中一馬"],
+			"urls" : ["http://staging-yefhvprg.dotcloud.com"],
+			"title" : "Pigg Card Battle",
+			"techs" : ["enchant.js"],
+			"description" : "JavaScriptに苦戦しながら作ったゲームです。オセロとトランプを合わせた様なゲームとなっています（一応）。"
+		},
+		{
+			"members" : ["小阪智弘"],
+			"urls" : ["http://waqs.jp/test/tgsback/tgsback.html"],
+			"title" : "落ちガール",
+			"techs" : ["ajax"],
+			"description" : "東京ガールズスナップのブーストアプリです。"
+		},
+		{
+			"members" : ["小阪智弘"],
+			"urls" : ["http://waqs.jp/test/img.html"],
+			"title" : "全方位彼女",
+			"techs" : ["iPhone加速度センサー"],
+			"description" : "エンタメ課金アプリの提案用のモックです。"
+		},
+		{
+			"members" : ["村田尚毅", "川田浩史"],
+			"urls" : ["http://ec2-23-20-190-181.compute-1.amazonaws.com:81"],
+			"title" : "Fair Share ～漏らしません出すまでは～",
+			"techs" : ["node.js(socket.io)", "mongodb", "javascript"],
+			"description" : "誰しもが一度はストレスを感じた「あの難題」を解決します。"
+		},
+		{
+			"members" : ["遠藤国忠", "村田尚毅", "川田浩史"],
+			"urls" : ["http://ec2-23-20-190-181.compute-1.amazonaws.com"],
+			"title" : "壁画物語",
+			"techs" : ["enchant.js", "node.js(socket.io)", "mongodb", "javascript"],
+			"description" : "昔流行ったデジモンで遊んだ感覚を表現\\nソーシャルも使ったリアルタイム対戦ができる\\n最強のモンスターを育成せよ！"
+		},
+		{
+			"members" : ["吉川浩太", "佐藤洋介"],
+			"urls" : "",
+			"title" : "amebubble",
+			"techs" : ["chrome extensions", "CSS3"],
+			"description" : "javascriptのおもしろさはHTMLそのものを弄れること！そんな熱い思いから、どんなサイトもamebaロゴで泡わわわになるコンテンツをchrome extensionsで制作しました。技術的にはブログパーツ等にも展開可能な為、今後アメブロにもぜひ！！\\n技術的な面ではDOMからテキストノードを抽出し、丸っこい文字に対してclassを付与classを付与した箇所の位置を取得し、そこからランダムで泡のインスタンスを生成しています。\\n動きはcss3アニメーションで動かそうとも考えましたが、泡のそれっぽい動きや、マウスとの当たり判定、全体のパフォーマンス等を考慮しsetIntervalでメインタイマーを作成し、画面内にあるモノのみに対し処理を当てています。\\nチームメンバーは入社3ヶ月の吉川と入社2ヶ月の佐藤の元DNPコンビです。いかに私達がCyberAgentが大好きか、いかにDNPに未練が無いかが伝われば幸いです。"
+		},
+		{
+			"members" : ["深谷篤生"],
+			"urls" : ["http://amewiki.cadc.cyberagent.local/display/~fukaya_atsuo/cybozuNotifier"],
+			"title" : "Cybozu Notifier",
+			"techs" : ["Google Chrome Extension", "HTML5", "LocalStrage", "DesktopNotification", "jQuery", "Twitter Bootstrap 2", "CoffeeScript"],
+			"description" : "毎日デバッグ(?)してます。"
+		},
+		{
+			"members" : ["見原朋也"],
+			"urls" : ["http://tm8r.com/adv/"],
+			"title" : "ADVゲーム作成支援",
+			"techs" : ["enchant.js"],
+			"description" : "画像とCSSの切り替えで簡単に多様なADVゲームの作成を実現できる。"
+		},
+		{
+			"members" : ["太田理絵", "櫻井瑶子"],
+			"urls" : "",
+			"title" : "スーパーたまごかけごはんちゃん",
+			"techs" : ["enchant.js", "PhoneGap"],
+			"description" : "OS開発屋が enchant.js を使って、ゆるかわシンプルゲーム開発！"
+		},
+		{
+			"members" : ["切通伸人"],
+			"urls" : ["http://goo.gl/TG5mX"],
+			"title" : "ポーカー",
+			"techs" : ["node.js", "websocket", "HTML5", "CSS3", "JavaScript"],
+			"description" : "モックプランコンテストには絶対提出不可能なものをつくることが出来ました。再接続処理、ゲームのリセットなどめんどくさいところを省いているのでその場でサーバー再起動で対処します。"
+		},
+		{
+			"members" : ["佐藤圭明"],
+			"urls" : ["http://footslot-nendee.dotcloud.com/"],
+			"title" : "FootSlot2012",
+			"techs" : ["node.js", "arctic.js"],
+			"description" : "iPhone向けのWEBアプリとして開発した、サッカーをモチーフとしたスロットゲームです。どの選手が、どんなプレイを行うのか、成功したのか、失敗したのか、全てのプレイをスロットで決め、ゲームは進行していきます。ドラムを一つ止めるたびに、次のドラムに影響を及ぼし、3つのドラムを止めると、1つのプレイが決定します。1つのプレイが5分単位で行われ、90分（18プレイ）終了時点で、勝敗が決定します。"
+		},
+		{
+			"members" : ["頼兼孝幸"],
+			"urls" : "",
+			"title" : "Realtime Comment Viewer",
+			"techs" : ["node.js", "socket.io", "mongodb"],
+			"description" : "メインの部分は流用したもので、特にアピールすることはないのですが、、ニコ動の画像版みたいなのができたらいいなと思ってます。"
+		},
+		{
+			"members" : ["小松広樹", "伊藤恭平", "林欣朋"],
+			"urls" : ["http://ec2-23-21-133-157.compute-1.amazonaws.com:8080/"],
+			"title" : "C3 (Connection Catalyst Cube)",
+			"techs" : ["Canvas", "node.js", "socket.io", "CSS3"],
+			"description" : "使いやすさを度外視した見た目と機能優先のフリーチャットコネクトアプリ。　何度もキーを叩きたくなる快感をあなたに。\\nCtrl + [  → 名前の入力\\nCtrl + \\  → Windowの出現\\nCtrl + ^  → Windowの削除\\nCtrl + マウス → Windowに絵が描けます\\nCtrl + 左右 → Windowの切り替え"
+		},
+		{
+			"members" : ["川口一也", "北村理沙", "長谷部巧"],
+			"urls" : ["http://mybaby.heroku.com/#baby"],
+			"title" : "ベビータッチ",
+			"techs" : ["MySQL", "node.js", "socket.io", "express", "ejs", "async", "sequelize(MySQL用DRM)", "chikuwa", "LESS"],
+			"description" : "nodeJSに(MongoDBではなく)あえてのMySQL\\nsequelizeはupdate時のincrement(a=a+1みたいな)ができなかったのでソースいじってできるようにしました\\nクラウド環境としてherokuをつかってみた\\nCSSで動かしてます\\nchikuwaつかってます\\ngitでソース管理しました\\nかわいいしぐさ研究しましたｗ と、いうか、かわいいです♪"
+		},
+		{
+			"members" : ["新屋順平"],
+			"urls" : "",
+			"title" : "コードミニオンズ5！",
+			"techs" : ["localstorage", "postMessage", "canvas"],
+			"description" : "任意のページでブックマークレットを起動すると、UFOがHTMLタグを誘拐してlocalstorageに格納します。誘拐したタグを戦闘員に変換してW3Cから派遣されてくるロボットと戦う悪の秘密結社ゲームです。\\n結局いつも使っているAPIを組み合わせただけになったので技術的には大したことないですがデザインを頑張りました。あとフルスクラッチです。"
+		},
+		{
+			"members" : ["菅家洋太", "九鬼英二郎", "中川健太郎"],
+			"urls" : ["http://219.94.225.77:8124/"],
+			"title" : "ハチャメチャーリーグ",
+			"techs" : ["webGL(blenderでモデリング→Three.js用にexport)", "node.js(socket.io)", "mongodb", "enchant.jsライクなBasic.jsを作成＆使用"],
+			"description" : "◇技術面\\nflashを使わないwebコンテンツで、ここまでの表現が可能になった。\\n（webGLによる3D表現　および、jsの処理速度アップ）\\n◇ゲーム\\nテーマは、気軽にプレイできる、カジュアルなゲームを作ることを目指しました。新技術のwebSocketを使いたかったので、対戦ゲームを作りたいと思い、人気低迷といえど、まだまだ人気の根強い、そして企画をした菅家が大好きな “ 野球 ” を選びました。\\nフルイニングをプレイするにはゲームボリュームが大きいので、球場を野球盤のようなノリにし、一定数の球を打つことによるポイントを競うルールにしました。\\n球を打つUIは、パワフロプロ野球とほぼ同じ仕様です。多くの野球ゲームがこのUIを模倣しており、ピッチャーの投げた球をタイミングよく、バットの真芯でとらえる　＝　遠くに飛ぶ　＝　高得点　＝　快感　という、リズム系のゲームにも似た中毒性がここにあるためです。\\nまたスポーツは人々を熱狂させ、そして自陣の選手に対して愛着を抱くようになるので、より愛着をもってもらいやすいようにキャラクターをアバター化しました。ライトな、かわいらしい、多くの人が取っ付きやすいデザインにしました。初めキャラクターは、2Dのスプライトアニメーションでキャラクターの着せ替えを作ろうとおもっていたのですが、1コマ1コマ描いて行くにはとても工数が足りないということと、このような機会でwebGLという新技術を使わない手はないということで、思い切って3Dで作成することにしました。3Dといっても、クオリティーなどの調整は非常に難しく、リアルによりすぎない、2Dのかわいらしさを保持するための調整は非常に大変でした。"
+		},
+		{
+			"members" : ["大山雄一"],
+			"urls" : "",
+			"title" : "パズルゲーム",
+			"techs" : ["html", "JavaScript", "CSS3", "jQuery 1.7"],
+			"description" : "Candy並び替えエンジンを使ったパズルスマホでも一応PCでも動く長押しで要素が移動するのでwindowのscrollともかち合わないなかなかスムーズなタッチ感plan.jsを更新することでパズルを運用可能plan.jsはメーカーで生成、セルのパターンは普通のパズルより自由"
+		},
+		{
+			"members" : ["佐藤真一郎"],
+			"urls" : ["http://choilabo.com:3000/index.html"],
+			"title" : "☆きらきらファンタジー☆",
+			"techs" : ["node.js", "socket.io"],
+			"description" : "最近のClickするだけのカードゲームが面白くなかったので、WebSocketを使用してリアルタイム対戦ゲームを作ってみました。"
+		},
+		{
+			"members" : ["高峯明日希", "吉澤秀樹"],
+			"urls" : ["http://27.120.90.178:3000/kame_and_usagi/top.html"],
+			"title" : "かめとうさぎ",
+			"techs" : ["node.js", "socket.io", "Canvas"],
+			"description" : "眺める系のほのぼのアプリです。最初はサーバーサイドはPerlで書こうとしたけど・・・な、開発エピソード満載です。"
+		},
+		{
+			"members" : ["中住裕之", "澤田正彦", "御船和華"],
+			"urls" : ["http://176.34.45.105/"],
+			"title" : "川柳ラジオ",
+			"techs" : ["HTML5", "CSS3", "JavaScript", "enchant.js", "audio.js", "歌声合成", "オーディオストリーミング"],
+			"description" : "大阪支社のメンバーが集まって楽しく作りました！！現在のスマートフォンのブラウザのHTML5ではオーディオ関連の機能が弱いので、その部分でインタラクティブ性を持たせたアプリを作ることを目標にしました。アプリコンテストでは最終的な形までは実装できませんでしたが、技術的にはインターネット上のテキストリソース(例えばアメブロ)を収集したものを解析し、それをもとにユーザーからの入力か全自動で川柳やその他の音声情報に変換して、HTML5アプリ上でラジオ放送を行うことができます。"
+		},
+		{
+			"members" : ["古村貴法"],
+			"urls" : ["http://comtectec.com/2ndscene/index.html"],
+			"title" : "2nd scene",
+			"techs" : ["videoタグを使った動画再生", "canvasにキャプチャし画像をbase64扱う", "localStorage", "youtube動画のTwitter、Facebookとの連携"],
+			"description" : "■コンセプト\\nyoutubeで再生リストなどは改めて使わなく、「いいね」感覚で気軽に好みのリストを作りたい\\n動画をシェアしたくても、１つの動画としてではなく好きな場面が存在する\\n動画をシェアされた時も、長い動画などの場合どの場面が良いと思ったのか知りたい\\n■ターゲット\\n普段からyoutubeでいろんな動画で見るが、ランキングや検索では好きな動画がみつからない人\\n興味深いサービスやコンテンツをみつけた時にSNSなどでよく共有する人\\n■意識した点\\n小さなテキストリンクやボタンの「いいね」ではなくゲームのような大きなボタンでゲーム感覚で自分が好きそうな場面が出てこないかどうか楽しみながら使って欲しい\\n「いいね」を押したことをタイムライン形式で即時に反映し、テキスト入力欄を表示し気軽にコメントもできるようにする\\nTwitter、Facebookでも「いいね」を押した時間から再生がはじまるように設定（Facebookではウォール上で再生できる形式で投稿）\\n■技術的制約\\n現状youtubeの動画をインポートしてHTML5で再生することが難しい（と思われる）\\nスマートフォンではブラウザ上の動画はアプリで再生される\\nよってiPadなどタブレット端末での利用を想定"
+		},
+		{
+			"members" : ["横山優", "田坂和暢", "沖本沙弥香"],
+			"urls" : ["http://taskcommon.herokuapp.com/"],
+			"title" : "助クコモン(task common)",
+			"techs" : ["Canvas", "CSS3", "JavaScript", "Ruby on Rails", "スマフォ向けのUIデザイン"],
+			"auth": ["appcontest", "appcontest2012"],
+			"login": ["shinsain", "appcontest2012"],
+			"description" : "事務的になりがちなタスク共有ツールを\\n・お互いに褒めたり\\n・励ましたり\\n・ワクワクしながら\\n開発を出来る様なツールとして企画、デザインしました。アラフォー、アラサーあたりのファミコン世代に刺さるプロダクトデザインに着目して頂きたいです。"
+		},
+		{
+			"members" : ["マリオ", "宮本佳奈"],
+			"urls" : ["http://mfreitas.no-ip.org"],
+			"title" : "Cat Fight 7 (キャット・ファイト・セブン）",
+			"techs" : ["Canvas", "lime.js", "google closure", "node.js", "now.js (socket.io)", "underscore.js"],
+			"description" : "Android / iPhone / Desktop全プラットホーム対応。\\n「ストーリー」「暇だにゃ〜」「ネット対戦」という３つのプレイモードがあるので「デモ」というより「モック」に近い。ゲームのロジックは面白い。リアルタイム対戦にはまる。デザインは可愛い。ローカライズ対応（現在、日本語と英語）ブラウザーの言語に応じて自動的に選択されます。"
+		},
+		{
+			"members" : ["中島佑", "森美咲", "高野雅典"],
+			"urls" : ["http://appcon.garaje.in:3000/sensor/sensor.html", "http://appcon.garaje.in:3000/views/"],
+			"title" : "【WebGL】もうどうにでもな～れ【ジャイロ】",
+			"techs" : ["node.js", "WebGL", "Canvas", "WebSocket", "ジャイロセンサー", "加速度センサー"],
+			"description" : "PCとスマホをWebSocketで繋げばPS Moveっぽいこと出来るかも？スマホを振り回すのを想像したらあのAAが浮かんだので、じゃあそれ再現してみようという発想から生まれた無駄アプリ。今一番HOTな技術を取り込んでみました。\\n※ デモを実行するとパソコンが唸りを上げるかもしれないので自己責任でお願いします。\\n※ iPhoneが飛んで行っても私たちは責任を取れません。"
+		},
+		{
+			"members" : ["遠藤宏長", "平松紘典"],
+			"urls" : ["http://co-sche.ddo.jp/batontouche/"],
+			"title" : "らくがきしりとり バトンタッチぇ",
+			"techs" : ["node.js", "jade", "stylus", "nib", "Twitter OAuth", "MySQL", "redis"],
+			"description" : "ついでに震える。"
+		},
+		{
+			"members" : ["弘瀬健"],
+			"urls" : "",
+			"title" : "ブラウザベースのPDFビューア",
+			"techs" : ["Canvas", "File API", "jquery", "jquery-toastmessage-plugin", "pdf.js"],
+			"description" : "ラウザでPDFを閲覧できます。また、ページ内の選択したテキストを翻訳することができます。"
+		},
+		{
+			"members" : ["山田元基", "石井小百合", "利宮正喜"],
+			"urls" : ["180.233.142.91"],
+			"title" : "星座神話大戦(仮)",
+			"techs" : ["HTML5", "CSS3", "socket.io", "node.js", "MongoDB"],
+			"description" : "実際にソーシャルゲームにする事を前提に開発しています。"
+		}
+	]
+}
