@@ -3,6 +3,42 @@
 html
   include includes/head
   body
-    button(id="btnHee") Hee
+    div#contents
+      nav
+        header
+          button Menu
+      //- list
+      div(id='list')
+    
+      //- button
+      div(id='hee')
+        button(id="btnHee") Hee
+    
+      //- detail
+      section(id='detail')
+        header
+          ul
+            li
+              a Back
+            li
+              a Next
+          p.counter 0
+        h1 title
+        ul.members
+        ul.urls
+        dl.auth.hidden
+          dt 認証ID
+          dd.id ID
+          dt パスワード
+          dd.password PassWord
+        dl.login.hidden
+          dt ログインID
+          dd.id ID
+          dt パスワード
+          dd.password PassWord
+        ul.techs
+        p.description Description
+      
+    p(id="out")
     script(src='js/lib/socket.io.min.js')
     script(src='js/hee.min.js')

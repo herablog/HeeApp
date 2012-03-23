@@ -86,7 +86,7 @@
 		},
 		{
 			"members" : ["頼兼孝幸"],
-			"urls" : "",
+			"urls" : ["http://172.28.139.107:3000"],
 			"title" : "Realtime Comment Viewer",
 			"techs" : ["node.js", "socket.io", "mongodb"],
 			"description" : "メインの部分は流用したもので、特にアピールすることはないのですが、、ニコ動の画像版みたいなのができたらいいなと思ってます。"
