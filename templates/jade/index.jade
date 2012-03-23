@@ -8,14 +8,14 @@ html
         header
           button Menu
       //- list
-      div(id='list')
+      div#list
     
       //- button
-      div(id='hee')
+      div#hee.page
         button(id="btnHee") Hee
     
       //- detail
-      section(id='detail')
+      section#detail.page
         header
           ul
             li
@@ -38,6 +38,14 @@ html
           dd.password PassWord
         ul.techs
         p.description Description
+        
+      //- summary
+      section#summary.page
+        h1 Summary
+        table
+          tr
+            th Members
+            th Counts
       
     p(id="out")
     script(src='js/lib/socket.io.min.js')
