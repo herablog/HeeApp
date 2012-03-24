@@ -1,12 +1,8 @@
-- var title = 'controller';
+- var title = 'Hee App Controller';
 !!! 5
 html
   include includes/head
   body
-    script(src='js/lib/socket.io.min.js')
-    script(src='js/hee.min.js')
-    script
-      socket.on('soundPlay', function () {
-        audio.currentTime = 0;
-        audio.play();
-      });
+    include includes/contents
+    include includes/scripts
+    script(src='js/hee.master.min.js')

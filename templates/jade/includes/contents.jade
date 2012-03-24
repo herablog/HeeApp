@@ -1,0 +1,37 @@
+div#contents
+  include header
+  //- button
+  div#hee.page
+    button(id="btnHee")
+
+  //- detail
+  section#detail.page
+    p#counter 0
+    ul#paging
+      li.back
+        a Back
+      li.next
+        a Next
+    h1 title
+    ul.members
+    ul.urls
+    dl.auth.hidden
+      dt 認証ID
+      dd.id ID
+      dt パスワード
+      dd.password PassWord
+    dl.login.hidden
+      dt ログインID
+      dd.id ID
+      dt パスワード
+      dd.password PassWord
+    ul.techs
+    p.description Description
+    
+  //- summary
+  section#summary.page
+    h1 Summary
+    table
+      tr
+        th Members
+        th Counts
