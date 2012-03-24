@@ -4,7 +4,7 @@
   		"members" : ["原一成"],
   		"urls" : [""],
   		"title" : "へぇ〜アプリ",
-  		"techs" : ["node.js", "Socket.io", "CSS3"],
+  		"techs" : ["node.js", "Socket.io", "CSS3", "Web Fonts"],
   		"description" : "ちょっとしたことでもへぇ〜しましょう"
   	},
 		{

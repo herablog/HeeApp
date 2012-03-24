@@ -100,6 +100,27 @@ heeApp.util = {
     }
   },
   
+  /**
+   * Is this agent Android? true or false.
+   * @public
+   * @param {string} version number
+   * @return true or false
+  **/
+  isAndroid: function(ver){
+	var txt = ver ? 'android ' + ver : 'android';
+	var obj = new RegExp(txt, 'i');
+    return (navigator.userAgent.match(obj));
+  },
+  
+  /**
+   * Is this agent iPhone? true or false.
+   * @public
+   * @return true or false
+  **/
+  isiPhone: function(){
+    return (navigator.userAgent.match(/iPhone/i));
+  },
+  
   log: {
     info: function(data){
       console.log('[Info] ' + data);

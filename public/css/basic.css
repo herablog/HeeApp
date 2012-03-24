@@ -1,11 +1,11 @@
-*{margin:0;padding:0}
+*{margin:0;padding:0;list-style:none}
 html,body{height:100%}
 body{background:#fcfff9}
-.hidden{display:none}
+.hidden{display:none !important}
 @font-face{font-family:'DS-Digital';src:url("../fonts/DS-DIGII.TTF") format('TrueType')}
 #contents{height:100%;color:#333;border-top:3px solid #000;font-family:sans-serif;}
 #contents > header{height:37px;background:#000;text-align:center;overflow:hidden;}
-#contents > header img{height:37px}
+#contents > header img{position:absolute;top:3px;height:37px}
 #contents.connected{border-top:3px solid #e8e8b3}
 #counter{position:absolute;top:40px;right:0;width:150px;height:150px;color:#f15c56;background:#000;border:2px solid #aaa;font-size:70px;font-family:DS-Digital;text-align:center;line-height:150px}
 #detail{margin-right:156px;padding:6px;}
@@ -18,18 +18,27 @@ body{background:#fcfff9}
 #detail .techs li{display:inline-block;}
 #detail .techs li:after{content:'/';margin:0 .5em;color:#333}
 #detail .techs li:last-child:after{content:'';margin:0}
+#detail .auth dd,#detail .auth dt{display:inline-block}
+#detail .auth dt:after{content:':';margin:0 2px 0 0}
+#detail .auth dd{margin:0 10px 0 0}
+#detail .login dd,#detail .login dt{display:inline-block}
+#detail .login dt:after{content:':';margin:0 2px 0 0}
+#detail .login dd{margin:0 10px 0 0}
 #detail .description{margin:18px 0 0;padding:8px;border:1px solid #ccc;border-radius:6px;font-size:14px;line-height:1.8}
-#paging{margin:15px 0;}
-#paging li{display:inline-block;width:50%;}
-#paging li a{display:block;text-align:center}
+#paging{height:40px;overflow:hidden;}
+#paging li{width:4em;padding:2px 1em;}
+#paging li.back{float:left}
+#paging li.next{float:right}
+#paging li a{display:block;width:4em;height:28px;color:#ccc;border:1px solid #666;border-radius:2px;text-decoration:none;text-align:center;line-height:28px;}
+#paging li a:hover{color:#fff;border-color:#999}
 #summary h1{display:none}
 #summary table{width:60%;margin:15px auto;border-collapse:collapse}
 #summary th,#summary td{padding:.2em;border:1px solid #ccc}
 #summary th{background:#efefef}
 #summary td{text-align:right}
-.screen #summary,.screen #hee,.screen #paging{display:none}
+.screen #summary,.screen #hee,.screen #paging,.screen #html5{display:none}
 .screen #detail,.screen #counter{display:block}
-.master #hee{display:none}
+.master #hee,.master #html5{display:none}
 .master #summary,.master #paging,.master #detail,.master #counter{display:block}
 .button{background:#000;}
 .button#contents{border:none}
@@ -38,8 +47,10 @@ body{background:#fcfff9}
 .button #hee{display:block;width:100%;height:100%}
 .button #btnHee{width:100%;height:100%;background-color:#000;background-image:url("../img/btn_off.png");background-repeat:no-repeat;background-position:center;background-size:contain;-webkit-appearance:none;appearance:none;cursor:pointer}
 .button.connected #btnHee{background-image:url("../img/btn.png")}
+.button #html5{display:block}
 .button #detail,.button #summary,.button #counter,.button #paging{display:none}
-.detail #summary,.detail #detail .counter{display:none}
-.detail #detail{display:block}
-.summary #hee,.summary #detail{display:none}
+.detail #summary,.detail #counter,.detail #hee,.detail #html5{display:none}
+.detail #detail,.detail #paging{display:block}
+.detail #detail{margin-right:0}
+.summary #hee,.summary #detail,.summary #html5{display:none}
 .summary #summary{display:block}

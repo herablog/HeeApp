@@ -2,6 +2,7 @@
 *
   margin 0
   padding 0
+  list-style none
 
 html, body
   height 100%
@@ -11,7 +12,7 @@ body
 
 // common classes
 .hidden
-  display none
+  display none !important
 
 // fonts
 @font-face
@@ -30,6 +31,8 @@ body
     text-align center
     overflow hidden
     img
+      position absolute
+      top 3px
       height 37px
   &.connected
     border-top 3px solid #e8e8b3
@@ -80,6 +83,22 @@ body
         &:after
           content ''
           margin 0
+  .auth
+    dd,dt
+      display inline-block
+    dt:after
+      content ':'
+      margin 0 2px 0 0
+    dd
+      margin 0 10px 0 0
+  .login
+    dd,dt
+      display inline-block
+    dt:after
+      content ':'
+      margin 0 2px 0 0
+    dd
+      margin 0 10px 0 0
   .description
     margin 18px 0 0
     padding 8px
@@ -90,13 +109,28 @@ body
 
 // paging
 #paging
-  margin 15px 0
+  height 40px
+  overflow hidden
   li
-    display inline-block
-    width 50%
+    width 4em
+    padding 2px 1em
+    &.back
+      float left
+    &.next
+      float right
     a
       display block
+      width 4em
+      height 28px
+      color #ccc
+      border 1px solid #666
+      border-radius 2px
+      text-decoration none
       text-align center
+      line-height 28px
+      &:hover
+        color #fff
+        border-color #999
 
 // summary
 #summary
@@ -116,13 +150,13 @@ body
 
 // current
 .screen
-  #summary, #hee, #paging
+  #summary, #hee, #paging, #html5
     display none
   #detail, #counter
     display block
     
 .master
-  #hee
+  #hee, #html5
     display none
   #summary, #paging, #detail, #counter
     display block
@@ -154,19 +188,23 @@ body
   &.connected
     #btnHee
       background-image url('../img/btn.png')
+  #html5
+    display block
   #detail, #summary, #counter, #paging
     display none
 
 // detail
 .detail
-  #summary, #detail .counter
+  #summary, #counter, #hee, #html5
     display none
-  #detail
+  #detail, #paging
     display block
+  #detail
+    margin-right 0
 
 // summary
 .summary
-  #hee, #detail
+  #hee, #detail, #html5
     display none
   #summary
     display block

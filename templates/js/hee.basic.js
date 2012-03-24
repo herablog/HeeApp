@@ -24,9 +24,14 @@ heeApp.view = {
 
   },
   render: function(){
+    var u = this.u;
     var state = this.state;
-    this.u.addClass(this.u.getEl('#contents'), state.current);
-    this[state.current] && this[state.current](this.data);   
+    if(u.isiPhone() || u.isAndroid()){
+      // state.current = 'button';
+      location.hash = '#button';
+    }
+    u.addClass(u.getEl('#contents'), state.current);
+    this[state.current] && this[state.current](this.data);
   },
   
   master: function(data){
@@ -52,7 +57,7 @@ heeApp.view = {
   },
 
   detail: function(data){
-    var u = this.u;
+    var u = this.u;    
     var current = this.state.current;
     u.log.info('load ' + current);
     var numPage = parseInt(this.state.params[0]);
@@ -68,9 +73,10 @@ heeApp.view = {
       u.getEl('#paging li:first-child a').href = '/#' + current + '/' + (parseInt(numPage) - 1);
     }
     if(numPage === (this.data.data.length - 1)){
-      u.getEl('#paging li:last-child a').href = '/#summary';
+      u.addClass(u.getEl('#paging .next'), 'hidden');
     } else {
-      u.getEl('#paging li:last-child a').href = '/#' + current + '/' + (parseInt(numPage) + 1);
+      u.removeClass(u.getEl('#paging .next'), 'hidden');
+      u.getEl('#paging .next a').href = '/#' + current + '/' + (parseInt(numPage) + 1);
     }
 
 
@@ -106,6 +112,8 @@ heeApp.view = {
       u.getEl('#detail > .auth .id').innerText = data.auth[0];
       u.getEl('#detail > .auth .password').innerText = data.auth[1];
       u.removeClass(u.getEl('#detail > .auth'), 'hidden');
+    } else {
+      u.addClass(u.getEl('#detail > .auth'), 'hidden');
     }
 
     // add login
@@ -113,6 +121,8 @@ heeApp.view = {
       u.getEl('#detail > .login .id').innerText = data.login[0];
       u.getEl('#detail > .login .password').innerText = data.login[1];
       u.removeClass(u.getEl('#detail > .login'), 'hidden');
+    } else {
+      u.addClass(u.getEl('#detail > .login'), 'hidden');
     }
 
     // add techs
@@ -163,7 +173,6 @@ heeApp.view = {
       sound.load();
       sound.autoplay = false;
       audio.push(sound);
-      console.log(data);
     });
 
 
@@ -178,7 +187,6 @@ heeApp.view = {
       u.addClass(u.getEl('#contents'), 'connected');
       socket.on('changePage', function(d){
         var num = d || state.params[0];
-        console.log(d);
         location.hash = '#' + state.current + '/' + num;
       });
       // sound on
