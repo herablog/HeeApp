@@ -6,7 +6,7 @@ var heeApp = heeApp || {};
 heeApp.view = {
   settings: {
     sound: ['sound/he.mp3', 'sound/onara.mp3'],
-    ws: 'http://127.0.0.1:3000',
+    ws: 'http://ec2-54-248-9-204.ap-northeast-1.compute.amazonaws.com',
     onaraInterval: 20
   },
   init: function(){
