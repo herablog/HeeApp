@@ -10,7 +10,6 @@ var heeApp = heeApp || {};
 heeApp.State = function(callback, main){
   this.current;
   this.params = [];
-  
   this.update();
   
   var self = this;
@@ -107,8 +106,8 @@ heeApp.util = {
    * @return true or false
   **/
   isAndroid: function(ver){
-	var txt = ver ? 'android ' + ver : 'android';
-	var obj = new RegExp(txt, 'i');
+  	var txt = ver ? 'android ' + ver : 'android';
+  	var obj = new RegExp(txt, 'i');
     return (navigator.userAgent.match(obj));
   },
   
